@@ -32,6 +32,8 @@ header nav {
   justify-content: center;
   gap: 40px;
   flex-wrap: nowrap; /* overridden on mobile */
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 header nav a {
@@ -39,7 +41,8 @@ header nav a {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  white-space: nowrap;
+  white-space: normal;
+  text-align: center;
 }
 
 /* ------------------------------
